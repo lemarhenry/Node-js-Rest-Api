@@ -4,10 +4,10 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 
 
+const mongoose = require('mongoose')
+
 const productsRoutes = require('./Api/Routes/products')
 const orderRoutes = require('./Api/Routes/orders')
-
-
 
 
 //morgan used to log request
